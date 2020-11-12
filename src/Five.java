@@ -1,14 +1,14 @@
 import java.util.*;
-public class Four {
+public class Five {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int a= in.nextInt(), b= in.nextInt();
+        int a= in.nextInt();
         int i=0;
-        while (a>=b)
+        while (a>=1)
         {
-            a-=b;
+            a/=2;
             i++;
         }
-        System.out.println(i + " " + a);
+        System.out.println(i);
     }
 }

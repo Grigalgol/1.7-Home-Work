@@ -25,7 +25,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Four">
+  <component name="RunManager" selected="Application.Five">
+    <configuration name="Five" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Five" />
+      <module name="1.7 Home Work" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Four" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Four" />
       <module name="1.7 Home Work" />
@@ -42,6 +49,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Five" />
         <item itemvalue="Application.Four" />
         <item itemvalue="Application.One" />
       </list>
