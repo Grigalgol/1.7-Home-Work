@@ -2,13 +2,13 @@ import java.util.*;
 public class DopFive {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int x=1;
-        int i=0;
-        while (x%5!=0)
+        int x= in.nextInt();
+        int s=0;
+        while (x>0)
         {
-            x = in.nextInt();
-            if(x>10) i+=x;
+            s+=(x%10);
+            x/=10;
         }
-        System.out.println(i);
+        System.out.println(s);
     }
 }
